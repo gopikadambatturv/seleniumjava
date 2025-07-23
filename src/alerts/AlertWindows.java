@@ -8,7 +8,7 @@ import org.testng.annotations.AfterMethod;
 public class AlertWindows {
 	WebDriver driver;
   @Test
-  public void f() {
+  public void Techlearn() {
   }
   @BeforeMethod
   public void beforeMethod() {
