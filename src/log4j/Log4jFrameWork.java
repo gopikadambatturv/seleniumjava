@@ -21,9 +21,9 @@ public class Log4jFrameWork {
 	  log.info("Browser Window Maximized");
 	  
 	  driver.get("https://www.techlearn.in/");
-	  log.info("techlearn website opened");
+	  log.info("Techlearn website opened");
 	  
 	  driver.findElement(By.xpath("//*[@id=\"mega-menu-item-20\"]/a")).click();
-	  log.info("jobs link clicked on main menu");
+	  log.info("Jobs link clicked on main menu");
   }
 }
