@@ -16,6 +16,7 @@ public class AlertWindows {
 
   @AfterMethod
   public void afterMethod() {
+	  driver.quit();
   }
 
 }
