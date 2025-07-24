@@ -15,11 +15,12 @@ public class AlertWindows {
   @BeforeMethod
   public void beforeMethod() {
 	  driver = new ChromeDriver();
+	  driver.manage().window().maximize();
   }
 
   @AfterMethod
   public void afterMethod() {
-	  driver.quit();
+	  driver.close();
   }
 
 }
